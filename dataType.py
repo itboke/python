@@ -61,5 +61,23 @@ print(isHash["name"]) #输出helloPython
 #判断key是否存在字典中
 print("name" in isHash)
 
+#异常处理
+demo = {"name":"python"}
+try:
+    demo['age']
+except:
+    print(" The key in not ready")
+else:
+    print("no error")
+
+
+#def关键字定义一个函数
+
+def echoYourName(name):
+    print(name)
+
+#调用函数echoYourName
+echoYourName('my name is python!')
+
 
     
