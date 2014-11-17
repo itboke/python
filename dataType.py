@@ -79,5 +79,26 @@ def echoYourName(name):
 #调用函数echoYourName
 echoYourName('my name is python!')
 
+#python中一个简单的类定义
+class person:  #定义一个类名为person的类
+
+    #自定义的类变量
+    country = "我来自荷兰"
+    
+    #构造函数或者是初始化函数
+    def __init__(self,name,gender,age):
+        self.name = name,
+        self.gender = gender,
+        self.age = age
+
+    #自定义的一个类方法
+    def getInfo(self):  #self相当于JS的this 指向当前对象
+        print("我是",self.name)
+
+
+python = person('python','language',25)
+python.getInfo()
+print(python.country) #输出 我来自荷兰
+
 
     
