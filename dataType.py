@@ -48,4 +48,18 @@ str = '''
     </html>
 '''
 print(str) #按原格式输出
+
+#字典数据类型，相当于js的对象格式或者JSON格式{"name":"python","version":3.3.2}
+#它是一组hash值
+
+isHash = {"name":"helloPython","version":3}
+print(isHash);
+
+#dict(key) 获取字典中key的值
+print(isHash["name"]) #输出helloPython
+
+#判断key是否存在字典中
+print("name" in isHash)
+
+
     
