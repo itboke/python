@@ -8,3 +8,8 @@
 #生成器迭代
 
 result = (s for s in range(2,20) if s % 3 == 0)
+
+
+#集合
+
+data = set([1,2,3])
