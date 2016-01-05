@@ -19,7 +19,7 @@ class Person(object):
 
 # 继承 继承有什么好处？最大的好处是子类获得了父类的全部功能
 class Animal(object):
-	#限制该class实例能添加的属性
+	#限制该class实例能添加的属性      
 	__slots__ = ('name','age')
 	"""docstring for Animal"""
 	def run(self):
